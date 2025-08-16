@@ -1,0 +1,1 @@
+# Managers package for Camera Privacy Manager

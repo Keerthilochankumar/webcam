@@ -1,0 +1,1 @@
+# GUI package for Camera Privacy Manager

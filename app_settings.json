@@ -1,0 +1,41 @@
+{
+  "app": {
+    "name": "Camera Privacy Manager",
+    "version": "1.0.0",
+    "first_run": false,
+    "last_startup": "2025-08-16T17:01:57.431675",
+    "startup_count": 21
+  },
+  "security": {
+    "require_admin": true,
+    "max_failed_attempts": 3,
+    "failed_attempt_window_minutes": 15,
+    "auto_cleanup_days": 30,
+    "password_min_length": 8
+  },
+  "email": {
+    "smtp_server": "",
+    "smtp_port": 587,
+    "username": "",
+    "password": "",
+    "from_email": "",
+    "use_tls": true,
+    "recipients": []
+  },
+  "camera": {
+    "intrusion_video_duration": 10,
+    "default_device_id": 0,
+    "capture_format": "avi"
+  },
+  "gui": {
+    "window_width": 400,
+    "window_height": 300,
+    "popup_display_time": 3000,
+    "remember_window_position": false
+  },
+  "logging": {
+    "log_level": "INFO",
+    "max_log_files": 30,
+    "max_log_size_mb": 10
+  }
+}

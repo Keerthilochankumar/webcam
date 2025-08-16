@@ -1,0 +1,1 @@
+# Database package for Camera Privacy Manager
